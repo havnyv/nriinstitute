@@ -9,16 +9,16 @@ import Background from "../pages/homeimgs/book.jpg";
 function Home() {
   return (
     <>
-      <section className="container--px container--py swiperhero">
+      <section className="container--px  swiperhero">
         <div className="container swiperhead">
           <Homeswiper />
         </div>
       </section>
 
-      <section className="hero">
+      <section className="hero container--pall">
         <div className="container">
           {/* <div className="hero__image"></div> */}
-          <div className="hero__text container--pall">
+          <div className="hero__first ">
             <div className="welcome">
               <h2>NRI Institute Welcomes you</h2>
               <p>
@@ -31,7 +31,7 @@ function Home() {
           </div>
 
 
-            <div className="second_hero flex">
+            <div className="hero__second">
               <div className="vismis">
                 <h2>Our Vision</h2>
                 <p>To grow into an abode of learning accessible to the educationally, economically and socially marginalized sections of the society.</p>
@@ -45,7 +45,7 @@ function Home() {
               </div>
 
               <div className="groupofinst">
-                <h3>Our Group of Institutions</h3>
+                <h2>Our Group of Institutions</h2>
                 <ul>
                   <li>St. John's High School,Papareddy Palya</li>
                   <li>St. John's High School,Gangondanahalli</li>
@@ -59,9 +59,9 @@ function Home() {
               </div>
 
             </div>
-            <a href="#" className="button hero__cta">
+            {/* <a href="#" className="button hero__cta">
               LOGIN
-            </a>
+            </a> */}
         </div>
       </section>
       {/* ############################### */}
