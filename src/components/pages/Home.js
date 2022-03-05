@@ -71,14 +71,9 @@ function Home() {
       <section className="feature">
         <div className="feature__content container container--pall">
           <div className="feature__intro">
-            <h2>Why choose Sarovar groups ? </h2>
+            <h2>Courses offered </h2>
             <p>
-              Sarovar Group offers a wide range of consulting services with the
-              necessary tools and expertise to help grow your business. We
-              partner with our clients from start to finish, focusing on their
-              needs while producing new ideas, developing effective strategies
-              and designing high quality and scalable solutions. Contact us to
-              learn more.
+            To instill human values and a sense of responsibility towards that society.To instill human values and a sense of responsibility towards that society.To instill human values and a sense of responsibility towards that society.
             </p>
           </div>
 
