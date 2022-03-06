@@ -78,7 +78,9 @@ a,a:visited,a:hover{
     }
     &--px{
         padding-left: 1.5rem;        
-        padding-right: 1.5rem;        
+        padding-right: 1.5rem;  
+        padding-top: 0;      
+        padding-bottom: 0;
     }
     &--pall{
     padding-top: 4.375rem;   

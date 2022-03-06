@@ -9,26 +9,30 @@ import "swiper/css/pagination";
 import "./swiper.scss";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Navigation, Pagination,Autoplay, EffectFade } from "swiper";
+
 export default function App() {
   return (
     <>
       <Swiper
+      navigation={true}
+        loop={true}
+        // effect={"fade"}
+        autoplay={{delay: 2500,
+                    disableOnInteraction: false
+                }}
+
         pagination={{
           dynamicBullets: true,
         }}
-        modules={[Pagination]}
+        modules={[Pagination,Autoplay,Navigation,EffectFade]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide><img src="https://swiperjs.com/demos/images/nature-1.jpg" /></SwiperSlide>
+        <SwiperSlide><img src="../pagecomponents/5.jpg" alt="" /></SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
         <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
     </>
   );
