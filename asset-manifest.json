@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/nriinstitute/static/css/main.8a83b610.css",
-    "main.js": "/nriinstitute/static/js/main.60a819a7.js",
+    "main.css": "/nriinstitute/static/css/main.736724e5.css",
+    "main.js": "/nriinstitute/static/js/main.d3c30938.js",
     "static/media/Founder.png": "/nriinstitute/static/media/Founder.fa9b49d295e32d76339d.png",
     "static/media/3.jpg": "/nriinstitute/static/media/3.6c5313042c5a529d7bec.jpg",
     "static/media/book.jpg": "/nriinstitute/static/media/book.63b9856776556a8f09cb.jpg",
     "static/media/5.jpg": "/nriinstitute/static/media/5.b88880defa3013c9e23a.jpg",
+    "static/media/bcaimg.png": "/nriinstitute/static/media/bcaimg.d2402d6910d967ae5876.png",
     "static/media/2.jpg": "/nriinstitute/static/media/2.9529a7af355c68cac7eb.jpg",
+    "static/media/bcomimg.png": "/nriinstitute/static/media/bcomimg.0003eec9176c14792070.png",
+    "static/media/bbaimg.png": "/nriinstitute/static/media/bbaimg.41ef81caaa66616d22f6.png",
     "static/media/navlogo.svg": "/nriinstitute/static/media/navlogo.38356ca8ea6794764444a86303ee3acf.svg",
     "static/media/1.jpg": "/nriinstitute/static/media/1.70e68d498cc385e999a6.jpg",
     "static/media/icon-api.svg": "/nriinstitute/static/media/icon-api.74c8ad1751bbd1e7f545e458f9306885.svg",
     "index.html": "/nriinstitute/index.html",
-    "main.8a83b610.css.map": "/nriinstitute/static/css/main.8a83b610.css.map",
-    "main.60a819a7.js.map": "/nriinstitute/static/js/main.60a819a7.js.map"
+    "main.736724e5.css.map": "/nriinstitute/static/css/main.736724e5.css.map",
+    "main.d3c30938.js.map": "/nriinstitute/static/js/main.d3c30938.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a83b610.css",
-    "static/js/main.60a819a7.js"
+    "static/css/main.736724e5.css",
+    "static/js/main.d3c30938.js"
   ]
 }
