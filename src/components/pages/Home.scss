@@ -60,43 +60,41 @@
             }
         }
     }
-    &__second {
+
+    &__second{
         // border: 1px solid;
-        h2{
-            margin-bottom: 0;
-        }
         display: flex;
         justify-content: space-between;
-        .vismis {
-            width: 50%;
-            p{
-                margin-top: 0.8rem;
-                margin-bottom: 1.2rem;
+        flex-direction: row-reverse;
+        padding-top: 3.5rem;
+        @include breakpoint-down(small){
+            flex-direction: column-reverse;
+        }
+        .FMessage{
+            width: 65%;
+            // border: 1px solid;
+
+            h2{
+                padding-bottom: 0;
+                margin-bottom: 0;
             }
-            ul{
-                padding: 0.8rem;
-                margin: 0;
-                list-style: square;
+            @include breakpoint-down(small){
+                width: 100%;
+            }
+        }
+        .founder{
+            min-width: 30%;
+            img {
+                border-radius: 2rem;
+                width: 90%;
+                max-width:15rem;
             }
 
-        }
-        .groupofinst {
-            width: 50%;
-            // background-color: cadetblue;
-            // border: 1px solid blue;
-            ul {
-                list-style: none;
-                color: $white;
-                margin: 0;
-                padding: 0 1.45rem;
-                li {
-                    border-bottom: 1px solid #000;
-                    color: #000;
-                }
+            @include breakpoint-down(small){
+                width: 90%;
             }
         }
     }
-
 
 
     &__text {
@@ -191,9 +189,7 @@
 }
 
 .article {
-    // &__content {
-    // }
-    // grid-template-columns: repeat(auto-fit,minmax(14.375rem,1fr));
+    
     &__grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -202,7 +198,7 @@
             grid-template-columns: repeat(2, 1fr);
         }
         @include breakpoint-up(large) {
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
         }
     }
     &__item {
@@ -233,7 +229,7 @@
         margin-bottom: 0.75rem;
     }
     &__title {
-        font-size: 1.0625rem;
+        font-size: 1.625rem;
         line-height: 1.2;
         margin-bottom: 0.75rem;
         color: $darkBlue;

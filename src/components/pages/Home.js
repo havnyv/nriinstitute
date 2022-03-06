@@ -2,6 +2,13 @@ import React from 'react'
 import "./Home.scss"
 import Homeswiper from "../pages/pagecompo/HomeSwiper/Homeswiper"
 
+
+// Image imports 
+import Founder from "./homeimgs/Founder.png"
+import bcaimg from "./homeimgs/bcaimg.png"
+import bcomimg from "./homeimgs/bcomimg.png"
+import bbaimg from "./homeimgs/bbaimg.png"
+
 // import Icon from "../pages/homeimgs/book.jpg";
 import Icon from "../pages/homeimgs/icon-api.svg";
 import Background from "../pages/homeimgs/book.jpg";
@@ -22,9 +29,9 @@ function Home() {
             <div className="welcome">
               <h2>NRI Institute Welcomes you</h2>
               <p>
-              NRI INSTITUTE, founded in 1994, is run by "NRI CHILDREN'S
-EDUCATIONAL TRUST, Bangalore". The colege is recognized by Government of Karnataka and affiliated to Bangalore University.
-The institution strives to fulfill its mission to provide educatonal opportunThe college curriculum comprises of Pre- University Courses as well as Degree Courses. Our major course streams on offer are in the science, commerce and Management. Further breaking down the genres, we offer specializations in Commerce, Computer Science, Management and Business. The college also offers a host of value - Added Courses for students to enhance their skills and develop special talents. <span><a href="/about">Readmore...</a></span>
+                NRI INSTITUTE, founded in 1994, is run by "NRI CHILDREN'S
+                EDUCATIONAL TRUST, Bangalore". The colege is recognized by Government of Karnataka and affiliated to Bangalore University.
+                The institution strives to fulfill its mission to provide educatonal opportunThe college curriculum comprises of Pre- University Courses as well as Degree Courses. Our major course streams on offer are in the science, commerce and Management. Further breaking down the genres, we offer specializations in Commerce, Computer Science, Management and Business. The college also offers a host of value - Added Courses for students to enhance their skills and develop special talents. <span><a href="/about">Readmore...</a></span>
               </p>
             </div>
             <div className="latestnews">
@@ -37,36 +44,23 @@ The institution strives to fulfill its mission to provide educatonal opportunThe
             </div>
           </div>
 
-
-            <div className="hero__second">
-              <div className="vismis">
-                <h2>Our Vision</h2>
-                <p>To grow into an abode of learning accessible to the educationally, economically and socially marginalized sections of the society.</p>
-                <h2>Our Mission</h2>
-                <ul>
-                  <li>To Provide qualitative education with all job oriented skills.</li>
-                  <li>To enrich the capacity of individuals to learn and lead with integrity and wisdom.</li>
-                  <li>To foster outreach programs, cultural and social understanding that strengthen learning.</li>
-                  <li>To instill human values and a sense of responsibility towards that society.</li>
-                </ul>
-              </div>
-
-              <div className="groupofinst">
-                <h2>Our Group of Institutions</h2>
-                <ul>
-                  <li>St. John's High School,Papareddy Palya</li>
-                  <li>St. John's High School,Gangondanahalli</li>
-                  <li>St. John's Public School,Papareddy Palya</li>
-                  <li>St. John's Resedential & Day School,Gidadhakonenahalli</li>
-                  <li>NRI Degree College (BBA,BCA,B.COM)</li>
-                  <li>NRI PU College (Science & Commerce)</li>
-                  <li>St. John's School of Nursing</li>
-                  <li>St. John's Institute of Nursing</li>
-                </ul>
-              </div>
-
+          {/* hero second */}
+          <div className="hero__second">
+            <div className="FMessage">
+              <h2>Message from The Founder</h2>
+              <p>
+                Dear Students,
+                We recognize that choosing an institution is one of the most important decisions you make in your life. At NRI we choose our students with as much care as you choose your institution. We are today living in a period of stress and strife, of competition and complexities. The adolescent of today is at a loss to decide for oneself the right course in one's academic and developmental pursuits. We believe that our students must set their firm grip on to quality right through the years with us and furthermore stride on to a rewarding and exciting career in future.
+                <span><a href="/about">Readmore...</a></span>
+              </p>
             </div>
-            {/* <a href="#" className="button hero__cta">
+            <div className="founder flex flex-ai-c flex-jc-c">
+              <img src={Founder} alt="" />
+            </div>
+          </div>
+
+
+          {/* <a href="#" className="button hero__cta">
               LOGIN
             </a> */}
         </div>
@@ -75,70 +69,10 @@ The institution strives to fulfill its mission to provide educatonal opportunThe
       {/* ############################### */}
       {/* ############################### */}
 
-      <section className="feature">
-        <div className="feature__content container container--pall">
-          <div className="feature__intro">
-            <h2>Courses offered </h2>
-            <p>
-            To instill human values and a sense of responsibility towards that society.To instill human values and a sense of responsibility towards that society.To instill human values and a sense of responsibility towards that society.
-            </p>
-          </div>
-
-          <div className="feature__grid">
-            <div className="feature__item">
-              <div className="feature__icon">
-                <img src={Icon} alt="icon" />
-              </div>
-              <div className="feature__title"></div>
-              <div className="feature__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam deserunt voluptate architecto inventore fugiat.
-
-              </div>
-            </div>
-
-            <div className="feature__item">
-              <div className="feature__icon">
-                <img src={Icon} alt="icon" />
-              </div>
-              <div className="feature__title">Online Services</div>
-              <div className="feature__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam deserunt voluptate architecto inventore fugiat.
-
-              </div>
-            </div>
-
-            <div className="feature__item">
-              <div className="feature__icon">
-                <img src={Icon} alt="icon" />
-              </div>
-              <div className="feature__title">Online Services</div>
-              <div className="feature__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam deserunt voluptate architecto inventore fugiat.
-
-              </div>
-            </div>
-
-            <div className="feature__item">
-              <div className="feature__icon">
-                <img src={Icon} alt="icon" />
-              </div>
-              <div className="feature__title">Online Services</div>
-              <div className="feature__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam deserunt voluptate architecto inventore fugiat.
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ############################### */}
-      {/* ############################### */}
-      {/* ############################### */}
 
       <section className="articles">
         <div className="article__content container container--pall">
-          <h2>Latest Blogs</h2>
+          <h2>Courses offered</h2>
           <div className="article__grid">
 
 
@@ -146,23 +80,20 @@ The institution strives to fulfill its mission to provide educatonal opportunThe
               <div
                 className="article__image"
                 style={{
-                  backgroundImage: `url(${Background})`,
+                  backgroundImage: `url(${bcaimg})`,
 
                 }}
               ></div>
 
               <div className="article__text">
-                <div className="article__author">
+                {/* <div className="article__author">
                   ADMIN
-                </div>
+                </div> */}
                 <div className="article__title">
-                  {" "}
-                  Lorem ipsum dolor sit
-                  {" "}
+                  BCA
                 </div>
                 <div className="article__description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam deserunt voluptate architecto inventore fugiat.
-
+                  Bachelor of Computer Applications
                 </div>
               </div>
 
@@ -173,23 +104,20 @@ The institution strives to fulfill its mission to provide educatonal opportunThe
               <div
                 className="article__image"
                 style={{
-                  backgroundImage: `url(${Background})`,
+                  backgroundImage: `url(${bcomimg})`,
 
                 }}
               ></div>
 
               <div className="article__text">
-                <div className="article__author">
+                {/* <div className="article__author">
                   ADMIN
-                </div>
+                </div> */}
                 <div className="article__title">
-                  {" "}
-                  Lorem ipsum dolor sit
-                  {" "}
+                  B.COM
                 </div>
                 <div className="article__description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam deserunt voluptate architecto inventore fugiat.
-
+                  Bachelor of Commerce
                 </div>
               </div>
 
@@ -200,49 +128,20 @@ The institution strives to fulfill its mission to provide educatonal opportunThe
               <div
                 className="article__image"
                 style={{
-                  backgroundImage: `url(${Background})`,
+                  backgroundImage: `url(${bbaimg})`,
 
                 }}
               ></div>
 
               <div className="article__text">
-                <div className="article__author">
+                {/* <div className="article__author">
                   ADMIN
-                </div>
+                </div> */}
                 <div className="article__title">
-                  {" "}
-                  Lorem ipsum dolor sit
-                  {" "}
+                  BBA
                 </div>
                 <div className="article__description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam deserunt voluptate architecto inventore fugiat.
-
-                </div>
-              </div>
-
-            </a>
-
-
-            <a href="#" className="article__item">
-              <div
-                className="article__image"
-                style={{
-                  backgroundImage: `url(${Background})`,
-
-                }}
-              ></div>
-
-              <div className="article__text">
-                <div className="article__author">
-                  ADMIN
-                </div>
-                <div className="article__title">
-                  {" "}
-                  Lorem ipsum dolor sit
-                  {" "}
-                </div>
-                <div className="article__description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam deserunt voluptate architecto inventore fugiat.
+                  Bachelor of Business Administration
                 </div>
               </div>
 
@@ -251,6 +150,13 @@ The institution strives to fulfill its mission to provide educatonal opportunThe
           </div>
         </div>
       </section>
+
+
+
+      {/* ############################### */}
+      {/* ############################### */}
+      {/* ############################### */}
+
     </>
   )
 }
