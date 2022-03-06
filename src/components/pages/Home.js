@@ -157,6 +157,28 @@ function Home() {
       {/* ############################### */}
       {/* ############################### */}
 
+      <section className="last_insti">
+        <div className="container lastins_flex">
+          <div className="ourgroupofins">
+          <h2>Our Group of Institutions</h2>
+                <ul>
+                  <li>St. John's High School,Papareddy Palya</li>
+                  <li>St. John's High School,Gangondanahalli</li>
+                  <li>St. John's Public School,Papareddy Palya</li>
+                  <li>St. John's Resedential & Day School,Gidadhakonenahalli</li>
+                  <li>NRI Degree College (BBA,BCA,B.COM)</li>
+                  <li>NRI PU College (Science & Commerce)</li>
+                  <li>St. John's School of Nursing</li>
+                  <li>St. John's Institute of Nursing</li>
+                </ul>
+          </div>
+          <div className="groupofinsimg" >
+                <div className="img1">lorem10sdfjas jffjs s afklsa fl hello worl d</div>
+                <div className="img2"> dfasjlk ldlfsajdfl lkjsaldflask dfsdlfa; fsddfalsdf sdflajsdl</div>
+          </div>
+        </div>
+      </section>
+
     </>
   )
 }
