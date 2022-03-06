@@ -39,12 +39,18 @@
         height: 3.75rem;
       }
       .logo_text{
-        font-weight: bold;
+        padding-top: 0.7rem;
+        flex-direction: column;
+        font-weight: normal;
         font-size: 1.5rem;
         line-height: 1;
         color: white;
         text-align: left;
         padding-left: 0.6rem;
+
+        span{
+          font-size: small;
+        }
       }
     }
       
@@ -62,13 +68,13 @@
   }
 
   &__social {
+    padding-left: 2rem;
     @include breakpoint-down(medium){
         margin-bottom: 1.875rem;
     }
     @include breakpoint-up(large) {
       grid-area: social;
-      align-self: end;
-      
+      align-self: end;  
     }
     a{
         display: inline-block;
@@ -121,16 +127,96 @@
   }
 
   &__cta {
-    @include breakpoint-up(large) {
-      grid-area: cta;
-      text-align: right;
-      justify-self: end;
-    }
-    a.button {
-        @include breakpoint-down(medium){
-            margin-bottom: 1.875rem;
+
+
+    .joinus__box {
+      .signup_form {
+
+        margin-top: 34px;
+        // border: 2px solid;
+        border-radius: 4px;
+        background-color: rgb(255, 255, 255);
+        padding-left: 10px;
+
+        .subscribe {
+          &__input {
+            border: none;
+            outline: none;
+            font-size: 17px;
+            width: 85%;
+
+          }
+
+          .subscribe__btn {
+            display: inline-block;
+            padding: 0.875rem 2.1875rem;
+            background-image: none;
+            background-color: white;
+            border-radius: 14px;
+            border: none;
+            cursor: pointer;
+            color: $white;
+            font-weight: 400;
+            font-size: $font-lg;
+            color: black;
+
+            padding-right: 3px;
+            padding-left: 3px;
+            margin-right: 4px;
+
+            &:hover {
+              opacity: 0.7;
+              color: #2455aa;
+            }
+          }
         }
+      }
+
+      .social_icons {
+
+        ul{
+            padding-left: 0;
+        }
+
+        a{
+            text-align: center;
+            border: 0px;
+            // text-transform: uppercase;
+            transition: all 0.3s ease 0s;
+            margin: 0px 05px;
+            font-size: 18px;
+            color: #fff;
+            border-radius: 30px;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            display: block;
+            border: 1px solid rgba(255,255,255,0.2);
+
+            &:hover{
+                padding: unset;
+
+                background:#ff3666;
+                border: 1px solid #ff3666;
+                color:#fff;
+                border:0px;
+                }
+        }
+      }
     }
+
+
+    // 
+    // @include breakpoint-up(large) {
+    //   grid-area: cta;
+    //   text-align: right;
+    //   justify-self: end;
+    // }
+    // a.button {
+    //     @include breakpoint-down(medium){
+    //         margin-bottom: 1.875rem;
+    //     }
+    // }
   }
 
   &__copyright {

@@ -80,10 +80,10 @@ function Navbar() {
                 <NavLink exact="true" to="/">
                   Home
                 </NavLink>
-                <NavLink exact="true" to="/services">
+                <NavLink exact="true" to="/academics">
                   Academics
                 </NavLink>
-                <NavLink exact="true" to="/about">
+                <NavLink exact="true" to="/aboutus">
                   About Us
                 </NavLink>
                 <NavLink exact="true" to="/blog">
@@ -92,7 +92,7 @@ function Navbar() {
                 <NavLink exact="true" to="/contact">
                   Contact
                 </NavLink>
-                <NavLink exact="true" to="/contact">
+                <NavLink exact="true" to="/sitemap">
                   Sitemap
                 </NavLink>
               </div>
